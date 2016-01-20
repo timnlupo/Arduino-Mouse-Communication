@@ -1,6 +1,5 @@
 # Arduino-Mouse Communication
-Optical mouse raw data in Arduino (works with most mice)
-Because documentation is difficult to find, I improved the code sourced from http://www.instructables.com/id/Optical-Mouse-Odometer-for-Arduino-Robot for easy integration with most computer mice circuits.  It gives you access to optical encoder X/Y velocity and click.
+Optical mouse raw data in Arduino (works with most mice). Because documentation is difficult to find, I improved the code sourced from http://www.instructables.com/id/Optical-Mouse-Odometer-for-Arduino-Robot for easy integration with most computer mice circuits.  It gives you access to optical encoder X/Y velocity and click.
 
 #Setup
 1. Find an old computer optical mouse to tear apart
@@ -12,9 +11,9 @@ Because documentation is difficult to find, I improved the code sourced from htt
 7. Profit
 
 #Understanding output
--The "x" variable is the velocity in coordinate x per clock tick, negative x implies negative x coordinate
--The "y" variable is the velocity in coordinate y per clock tick, negative y implies negative y coordinate
--The "stat" is click information (00 is no click, 01 is left click, 02 is right click, and 03 is middle click)
+1. The "x" variable is the velocity in coordinate x per clock tick, negative x implies negative x coordinate
+2. The "y" variable is the velocity in coordinate y per clock tick, negative y implies negative y coordinate
+3. The "stat" is click information (00 is no click, 01 is left click, 02 is right click, and 03 is middle click)
 
 # License
 Copyright (c) 2016 Tim Lupo
