@@ -1,6 +1,6 @@
 #define ps2_h
 
-#include <Mouse/Arduino Communication.h>
+#include <Arduino.h>
 
 class PS2 {
   public:
